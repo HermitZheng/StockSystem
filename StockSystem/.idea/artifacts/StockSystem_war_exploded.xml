@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="StockSystem:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/StockSystem_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="StockSystem/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="StockSystem" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mssql-jdbc-7.2.1.jre11" />
+          <element id="file-copy" path="E:/SQL Server/sqljdbc_7.2/chs/mssql-jdbc-7.2.1.jre11.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

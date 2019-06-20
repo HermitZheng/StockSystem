@@ -1,0 +1,173 @@
+body {
+    height:100%;
+    width:100%;
+    overflow: hidden;
+    background-size:cover;
+    background: #EEE685;
+}
+
+.login {
+    position: absolute;
+    right: 0px;
+    box-sizing: border-box;
+    width: 30%;
+    height: 100%;
+    background-color: #63B8FF;
+    z-index: 100;
+}
+.login .login-panel{
+    height: 360px;
+    position:absolute;
+    margin:auto;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom: 0;
+}
+.login .login-title {
+    text-align: center;
+    color: #0A0A0A;
+}
+.login .login-title h2 {
+    letter-spacing: 10px;
+}
+.login-container {
+    width: 100%;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 20px 0 0;
+    text-align: center;
+}
+.login .input {
+    border: 1px solid white;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 80%;
+    height: 46px;
+    padding-left: 10px;
+    margin: 0 auto;
+    font-size: 14px;
+    outline: none;
+    color:  #76838f;
+}
+.login .sub-login {
+    background-color: #62a8ea;
+    border: none;
+    width: 80%;
+    height: 45px;
+    line-height: 45px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+.login .login-fail{
+    color: red;
+    text-align: center;
+}
+.menu-container {
+    margin:0px auto;
+    width:25%;
+    top:190px;
+    text-align:left;
+    background:#123456;
+}
+.banner {
+    margin:0px;
+    padding:0px;
+    width:100%;
+    height:190px;
+    background:#778899;
+}
+
+.menu {
+    margin: 100px auto;
+    position: relative;
+    background: #62278d;
+    background: -moz-linear-gradient(top,  #62278d 0%, #2cc09b 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#62278d), color-stop(100%,#2cc09b));
+    background: -webkit-linear-gradient(top,  #62278d 0%,#2cc09b 100%);
+    background: -o-linear-gradient(top,  #62278d 0%,#2cc09b 100%);
+    background: -ms-linear-gradient(top,  #62278d 0%,#2cc09b 100%);
+    background: linear-gradient(to bottom,  #62278d 0%,#2cc09b 100%);
+    width: 300px;
+    border-width: 20px 0;
+    border-style: solid;
+    border-color: #fff;
+    color: #fff;
+    height: 540px;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -webkit-box-shadow: 0 0 50px 0 #444;
+    -moz-box-shadow: 0 0 50px 0 #444;
+    box-shadow: 0 0 50px 0 #444;
+}
+.left{
+    margin:0px;
+    padding:0px 0px 5px 0px;
+    width:25%;
+    top: 190px;
+    background:white;
+    color:#d8ecff;
+    float:left;
+}
+.menu-link{
+    margin:0px;
+    padding:0px;
+}
+.menu-link ul{
+    list-style-type:none;
+    padding:0px;
+    margin:0px;
+}
+.menu-link ul li{
+    float:left;
+    text-align:center;
+    width:80px;
+}
+.menu-link ul li a{
+    display:block;
+    margin:0px;
+}
+.menu-link a:link {
+    color:#004a87;
+    text-decoration:none;
+}    /* 未被访问的链接 */
+.menu-link a:visited {
+    color:#004a87;
+    text-decoration:none;
+} /* 已被访问的链接 */
+.menu-link a:hover {
+    text-decoration:underline;
+}   /* 鼠标指针移动到链接上 */
+.menu-link a:active {
+    text-decoration:underline;
+}  /* 正在被点击的链接 */
+
+.table {
+    display: table;
+    margin: 0 auto;
+    height: 300px;
+    width: 100%;
+    max-width: 1000px;
+}
+.table .content {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 10px;
+}
+.main {
+    position: fixed;
+    top: 190px;
+    width: 75%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    float: right;
+}
