@@ -14,7 +14,7 @@
 | Commodity ID    |  Market ID     | Stock ID              | Stock ID       |
 | Commodity Name  |  Market Name   | Com ID                | Stock Name     |
 | Storage         |  Password      | Price                 |                |
-| Market ID       |  Address       | Quantity              |                |
+| Market ID       |  Address       |                       |                |
 
 ### 三、用户界面
     1.登录界面
